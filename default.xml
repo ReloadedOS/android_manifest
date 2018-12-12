@@ -721,4 +721,10 @@
   <project name="toolchain/binutils" />
   <project name="toolchain/pgo-profiles" />
   
+  <!-- Remove Projects -->
+  <include name="remove.xml"/>
+  
+  <!-- Reloaded -->
+  <include name="reloaded.xml"/>
+  
 </manifest>
