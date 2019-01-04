@@ -41,7 +41,7 @@
     
     <!-- Apps -->
     <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="reloaded" />
-    <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="reloaded" />
+    <project name="android_packages_apps_Snap" path="packages/apps/Snap" remote="reloaded" />
     
     <!-- Prebuilts -->
     <project name="android_prebuilts_build-tools" path="prebuilts/build-tools" remote="reloaded" />
@@ -69,4 +69,5 @@
     <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="reloaded" />
     <project name="android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="reloaded" />
     <project name="android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="reloaded" />
+    <project name="tomgus1/proprietary_vendor_qcom_sdclang-6.0_linux-x86_64" path="vendor/qcom/sdclang-6.0/linux-x86" remote="github" revision="refs/heads/pie" />
 </manifest>
