@@ -45,6 +45,7 @@
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/CMFileManager" />
   <remove-project name="platform/packages/apps/Gallery" />
@@ -66,6 +67,7 @@
   <remove-project name="platform/vendor/codeaurora/telephony" />
   <remove-project name="platform/vendor/opensource/audio-kernel" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/fm" />
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
