@@ -24,6 +24,9 @@
     
     <!-- External -->
     <project name="android_external_selinux" path="external/selinux" remote="reloaded" />
+    <project name="LineageOS/android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="github" revision="refs/heads/lineage-16.0" />
+    <project name="LineageOS/android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="github" revision="refs/heads/lineage-16.0" />
+    <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="refs/heads/lineage-16.0" />
     
     <!-- Frameworks -->
     <project name="android_frameworks_av" path="frameworks/av" remote="reloaded" />
@@ -33,6 +36,7 @@
     
     <!-- Hardware -->
     <project name="android_hardware_interfaces" path="hardware/interfaces" remote="reloaded" />
+    <project name="LineageOS/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="github" revision="refs/heads/lineage-16.0" />
     <project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="reloaded" />
     <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="reloaded" />
     <project name="android_hardware_ril" path="hardware/ril" remote="reloaded" />
@@ -50,6 +54,9 @@
     <!-- Providers -->
     <project name="android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="reloaded" />
     <project name="android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="reloaded" />
+    
+    <!-- Resouces -->
+    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="refs/heads/lineage-16.0" />
     
     <!-- System -->
     <project name="android_system_bt" path="system/bt" remote="reloaded" />
