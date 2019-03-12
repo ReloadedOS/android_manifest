@@ -13,7 +13,7 @@ To initialize your local repository using the Reloaded-CAF trees, use a command 
 
 Then to sync up:
 
-    repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
+    repo sync -j$( nproc --all ) --force-sync -c --no-clone-bundle --no-tags --optimized-fetch --prune
 
 Building the source
 ---------------
