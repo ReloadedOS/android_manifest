@@ -38,6 +38,7 @@
     
     <!-- Hardware -->
     <project name="android_hardware_interfaces" path="hardware/interfaces" remote="reloaded" />
+    <project name="android_hardware_libhardware" path="hardware/libhardware" remote="reloaded" />
     <project name="LineageOS/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="github" revision="refs/heads/lineage-16.0" />
     <project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="reloaded" />
     <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="reloaded" />
@@ -51,6 +52,8 @@
     <project name="android_packages_apps_Snap" path="packages/apps/Snap" remote="reloaded" />
     
     <!-- Prebuilts -->
+    <project name="android_prebuilts_abi-dumps_ndk" path="prebuilts/abi-dumps/ndk" remote="reloaded" />
+    <project name="android_prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" remote="reloaded" />
     <project name="android_prebuilts_build-tools" path="prebuilts/build-tools" remote="reloaded" />
     
     <!-- Providers -->
@@ -64,7 +67,11 @@
     <project name="android_system_bt" path="system/bt" remote="reloaded" />
     <project name="android_system_chre" path="system/chre" remote="reloaded" />
     <project name="android_system_core" path="system/core" remote="reloaded" />
+    <project name="android_system_hwservicemanager" path="system/hwservicemanager" remote="reloaded" />
+    <project name="android_system_libhidl" path="system/libhidl" remote="reloaded" />
+    <project name="android_system_libhwbinder" path="system/libhwbinder" remote="reloaded" />
     <project name="android_system_sepolicy" path="system/sepolicy" remote="reloaded" />
+    <project name="android_system_tools_hidl" path="system/tools/hidl" remote="reloaded" />
     <project name="android_system_vold" path="system/vold" remote="reloaded" />
     
     <!-- Services -->

@@ -575,8 +575,8 @@
   <project name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" />
   <project name="platform/pdk" path="pdk" />
   <project name="platform/platform_testing" path="platform_testing" />
-  <project name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" clone-depth="1" />
-  <project name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" clone-depth="1" />
+  <project name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" />
+  <project name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" />
   <project name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" clone-depth="1" />
   <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools" clone-depth="1" />
   <project name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" clone-depth="1" />

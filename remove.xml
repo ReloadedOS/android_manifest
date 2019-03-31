@@ -43,6 +43,7 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
@@ -61,11 +62,17 @@
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/chre" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/hwservicemanager" />
+  <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/tools/hidl" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/vendor/codeaurora/telephony" />
   <remove-project name="platform/vendor/opensource/audio-kernel" />
