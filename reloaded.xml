@@ -49,7 +49,7 @@
     
     <!-- Apps -->
     <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="reloaded" />
-    <project name="android_packages_apps_Snap" path="packages/apps/Snap" remote="reloaded" />
+    <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="reloaded" />
     
     <!-- Prebuilts -->
     <project name="android_prebuilts_abi-dumps_ndk" path="prebuilts/abi-dumps/ndk" remote="reloaded" />
