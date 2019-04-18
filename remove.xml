@@ -55,6 +55,7 @@
   <remove-project name="platform/packages/apps/QuickSearchBox"/>
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
