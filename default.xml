@@ -13,7 +13,7 @@
 
   <remote name="github-ssh" fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/LA.UM.7.3.r1-07400-sdm845.0" remote="caf" sync-j="4" />
+  <default revision="refs/tags/LA.UM.7.3.r1-07800-sdm845.0" remote="caf" sync-j="4" />
   
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" />
   <project name="device/common" />

@@ -56,8 +56,6 @@
     <project name="android_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="reloaded" />
     
     <!-- Prebuilts -->
-    <project name="android_prebuilts_abi-dumps_ndk" path="prebuilts/abi-dumps/ndk" remote="reloaded" />
-    <project name="android_prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" remote="reloaded" />
     <project name="android_prebuilts_build-tools" path="prebuilts/build-tools" remote="reloaded" />
     
     <!-- Providers -->
@@ -72,11 +70,7 @@
     <project name="android_system_chre" path="system/chre" remote="reloaded" />
     <project name="android_system_core" path="system/core" remote="reloaded" />
     <project name="android_system_extras" path="system/extras" remote="reloaded" />
-    <project name="android_system_hwservicemanager" path="system/hwservicemanager" remote="reloaded" />
-    <project name="android_system_libhidl" path="system/libhidl" remote="reloaded" />
-    <project name="android_system_libhwbinder" path="system/libhwbinder" remote="reloaded" />
     <project name="android_system_sepolicy" path="system/sepolicy" remote="reloaded" />
-    <project name="android_system_tools_hidl" path="system/tools/hidl" remote="reloaded" />
     <project name="android_system_vold" path="system/vold" remote="reloaded" />
     
     <!-- Services -->
