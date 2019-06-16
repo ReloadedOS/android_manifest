@@ -50,8 +50,12 @@
     
     <!-- Apps -->
     <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="refs/heads/lineage-16.0" />
+    <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="reloaded" />
+    <project name="android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="reloaded" />
+    <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="reloaded" />
     <project name="android_packages_apps_ReloadedOTA" path="packages/apps/ReloadedOTA" remote="reloaded" />
     <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="reloaded" />
+    <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="reloaded" />
     <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="reloaded" />
     <project name="android_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="reloaded" />
     
