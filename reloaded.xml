@@ -23,7 +23,13 @@
     <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="reloaded" />
     
     <!-- External -->
+    <project name="android_external_aac" path="external/aac" remote="reloaded" />
+    <project name="android_external_libmpeg2" path="external/libmpeg2" remote="reloaded" />
     <project name="android_external_selinux" path="external/selinux" remote="reloaded" />
+    <project name="android_external_skia" path="external/skia" remote="reloaded" />
+    <project name="android_external_tremolo" path="external/tremolo" remote="reloaded" />
+    <project name="android_external_v8" path="external/v8" remote="reloaded" />
+    <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="reloaded" />
     <project name="LineageOS/android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="github" revision="refs/heads/lineage-16.0" />
     <project name="LineageOS/android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="github" revision="refs/heads/lineage-16.0" />
     <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="refs/heads/lineage-16.0" />
@@ -72,8 +78,11 @@
     <!-- System -->
     <project name="android_system_bt" path="system/bt" remote="reloaded" />
     <project name="android_system_chre" path="system/chre" remote="reloaded" />
+    <project name="android_system_connectivity_wificond" path="system/connectivity/wificond" remote="reloaded" />
     <project name="android_system_core" path="system/core" remote="reloaded" />
     <project name="android_system_extras" path="system/extras" remote="reloaded" />
+    <project name="android_system_netd" path="system/netd" remote="reloaded" />
+    <project name="android_system_nfc" path="system/nfc" remote="reloaded" />
     <project name="android_system_sepolicy" path="system/sepolicy" remote="reloaded" />
     <project name="android_system_vold" path="system/vold" remote="reloaded" />
     
