@@ -23,18 +23,12 @@
     <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="reloaded" />
     
     <!-- External -->
-    <project name="android_external_aac" path="external/aac" remote="reloaded" />
-    <project name="android_external_libmpeg2" path="external/libmpeg2" remote="reloaded" />
-    <project name="android_external_selinux" path="external/selinux" remote="reloaded" />
-    <project name="android_external_skia" path="external/skia" remote="reloaded" />
-    <project name="android_external_tremolo" path="external/tremolo" remote="reloaded" />
-    <project name="android_external_v8" path="external/v8" remote="reloaded" />
-    <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="reloaded" />
     <project name="LineageOS/android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="github" revision="refs/heads/lineage-16.0" />
     <project name="LineageOS/android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="github" revision="refs/heads/lineage-16.0" />
     <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="refs/heads/lineage-16.0" />
     <project name="LineageOS/android_external_exfat" path="external/exfat" remote="github" revision="refs/heads/lineage-16.0" />
     <project name="LineageOS/android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="refs/heads/lineage-16.0" />
+    <project name="android_external_selinux" path="external/selinux" remote="reloaded" />
     
     <!-- Frameworks -->
     <project name="android_frameworks_av" path="frameworks/av" remote="reloaded" />
@@ -78,11 +72,8 @@
     <!-- System -->
     <project name="android_system_bt" path="system/bt" remote="reloaded" />
     <project name="android_system_chre" path="system/chre" remote="reloaded" />
-    <project name="android_system_connectivity_wificond" path="system/connectivity/wificond" remote="reloaded" />
     <project name="android_system_core" path="system/core" remote="reloaded" />
     <project name="android_system_extras" path="system/extras" remote="reloaded" />
-    <project name="android_system_netd" path="system/netd" remote="reloaded" />
-    <project name="android_system_nfc" path="system/nfc" remote="reloaded" />
     <project name="android_system_sepolicy" path="system/sepolicy" remote="reloaded" />
     <project name="android_system_vold" path="system/vold" remote="reloaded" />
     
@@ -94,7 +85,6 @@
     <project name="android_vendor_reloaded" path="vendor/reloaded" remote="reloaded" />
     <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/commonsys/telephony" remote="reloaded" />
     <project name="android_vendor_qcom_opensource_bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" remote="reloaded" />
-    <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="reloaded" />
     <project name="android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="reloaded" />
     <project name="android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="reloaded" />
     <project name="tomgus1/proprietary_vendor_qcom_sdclang-6.0_linux-x86_64" path="vendor/qcom/sdclang-6.0/linux-x86" remote="github" revision="refs/heads/pie" />
