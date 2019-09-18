@@ -2,7 +2,7 @@
 <manifest>
   
   <remote name="reloaded" 
-          fetch="https://github.com/Reloaded-CAF" 
+          fetch="https://github.com/ReloadedOS" 
           revision="refs/heads/pie" />
 
   <remote name="caf" 
