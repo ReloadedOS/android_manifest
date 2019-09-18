@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="reloaded" 
+          fetch="https://github.com/ReloadedOS" 
+          revision="refs/heads/ten" />
+
   <remote name="caf" 
           fetch="http://source.codeaurora.org/quic/la" 
           review="codeaurora.org" />
+          
+  <remote name="lineage" 
+          fetch="https://github.com/LineageOS" 
+          revision="refs/heads/lineage-17.0" />
+
+  <remote name="github" fetch="https://github.com" />
+
+  <remote name="github-ssh" fetch="ssh://git@github.com" />
 
   <default revision="refs/tags/LA.UM.8.1.r1-08800-sm8150.0" remote="caf" sync-j="4" />
 
@@ -36,16 +48,12 @@
   <project name="device/google/vrservices" groups="pdk,q-fs-release" clone-depth="1"/>
   <project name="device/linaro/poplar" groups="device,pdk,poplar,q-fs-release"/>
   <project name="device/linaro/poplar-kernel" groups="device,pdk,poplar,q-fs-release" clone-depth="1"/>
-  <project name="device/qcom/common">
-    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
-    <linkfile dest="kernel/Android.mk" src="stop_scan.mk"/>
-    <linkfile dest="disregard/Android.mk" src="stop_scan.mk"/>
-  </project>
+  <project name="device/qcom/common"/>
   <project name="device/qcom/qssi"/>
   <project name="device/qcom/sepolicy"/>
   <project name="device/sample" groups="pdk,q-fs-release"/>
   <project name="kernel/configs" groups="pdk,q-fs-release,vts"/>
-  <project name="kernel/msm-4.14"/>
+  <project name="kernel/msm-4.14" clone-depth="1"/>
   <project name="kernel/tests" groups="pdk,q-fs-release,vts"/>
   <project name="platform/art" path="art" groups="pdk,q-fs-release"/>
   <project name="platform/bionic" path="bionic" groups="pdk,q-fs-release"/>
@@ -753,4 +761,11 @@
   <project name="platform/vendor/qcom/thulium" path="device/qcom/msm8996"/>
   <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan"/>
   <project name="toolchain/pgo-profiles" groups="pdk,q-fs-release"/>
+
+  <!-- Remove Projects -->
+  <include name="remove.xml"/>
+
+  <!-- Reloaded Projects -->
+  <include name="reloaded.xml"/>
+
 </manifest>
