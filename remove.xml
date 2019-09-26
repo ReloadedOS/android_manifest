@@ -73,6 +73,7 @@
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />

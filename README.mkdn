@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the Reloaded trees, use a command like this:
 
-    repo init -u https://github.com/ReloadedOS/android_manifest.git -b ten
+    repo init -u https://github.com/ReloadedOS/android_manifest.git -b q
 
 Then to sync up:
 
