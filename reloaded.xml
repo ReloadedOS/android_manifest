@@ -49,10 +49,20 @@
     <project name="android_manifest" path="manifest" remote="reloaded" />
 
     <!-- Apps -->
+    <project name="android_packages_apps_Calendar" path="packages/apps/Calendar" remote="reloaded" />
+    <project name="android_packages_apps_Contacts" path="packages/apps/Contacts" remote="reloaded" />
+    <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="reloaded" />
+    <project name="android_packages_apps_Email" path="packages/apps/Email" remote="reloaded" />
+    <project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="reloaded" />
     <project name="android_packages_apps_ReloadedOTA" path="packages/apps/ReloadedOTA" remote="reloaded" />
     <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="reloaded" />
+    <project name="android_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="reloaded" />
+    <project name="android_packages_apps_Stk" path="packages/apps/Stk" remote="reloaded" />
+    <project name="android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="reloaded" />
 
     <!-- Providers -->
+    <project name="android_packages_providers_CalendarProvider" path="packages/providers/CalendarProvider" remote="reloaded" />
+    <project name="android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" remote="reloaded" />
     <project name="android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="reloaded" />
 
     <!-- Resouces -->
@@ -71,6 +81,7 @@
 
     <!-- Vendor -->
     <project name="android_vendor_reloaded" path="vendor/reloaded" remote="reloaded" />
+    <project name="android_vendor_codeaurora_packages_apps_Dialer" path="vendor/codeaurora/commonsys/packages/apps/Dialer" remote="reloaded" />
     <project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" remote="reloaded" />
     <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="reloaded" />
     <project name="android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="reloaded" />
