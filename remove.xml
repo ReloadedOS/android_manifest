@@ -76,7 +76,9 @@
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/SnapdragonGallery" />
   <remove-project name="platform/packages/apps/Stk" />
   <remove-project name="platform/packages/apps/ThemePicker" />
