@@ -17,7 +17,7 @@
 
   <remote name="github-ssh" fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/LA.UM.8.1.r1-11800-sm8150.0" remote="caf" sync-j="4" />
+  <default revision="refs/tags/LA.UM.8.1.r1-12600-sm8150.0" remote="caf" sync-j="4" />
 
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" />
   <project name="device/amlogic/yukawa" />
@@ -45,22 +45,13 @@
   <project name="device/google/cuttlefish_common" />
   <project name="device/google/cuttlefish_kernel" clone-depth="1" />
   <project name="device/google/cuttlefish_vmm" clone-depth="1" />
-  <project name="device/google/muskie" />
-  <project name="device/google/taimen" />
   <project name="device/google/vrservices" clone-depth="1" />
-  <project name="device/google/wahoo" />
-  <project name="device/linaro/bootloader/OpenPlatformPkg" />
-  <project name="device/linaro/bootloader/arm-trusted-firmware" />
-  <project name="device/linaro/hikey" />
-  <project name="device/linaro/hikey-kernel" clone-depth="1" />
   <project name="device/linaro/poplar" />
   <project name="device/linaro/poplar-kernel" clone-depth="1" />
   <project name="device/qcom/common" />
   <project name="device/qcom/qssi" />
   <project name="device/qcom/sepolicy" />
   <project name="device/sample" />
-  <project name="device/ti/beagle-x15" path="device/ti/beagle_x15" />
-  <project name="device/ti/beagle-x15-kernel" path="device/ti/beagle_x15-kernel" clone-depth="1" />
   <project name="kernel/build" />
   <project name="kernel/configs" />
   <project name="kernel/msm-4.14" />
@@ -593,6 +584,7 @@
   <project name="platform/packages/modules/ModuleMetadata" path="packages/modules/ModuleMetadata" />
   <project name="platform/packages/modules/NetworkPermissionConfig" path="packages/modules/NetworkPermissionConfig" />
   <project name="platform/packages/modules/NetworkStack" path="packages/modules/NetworkStack" />
+  <project name="platform/packages/modules/TestModule" path="packages/modules/TestModule" />
   <project name="platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider" />
   <project name="platform/packages/providers/BlockedNumberProvider" path="packages/providers/BlockedNumberProvider" />
   <project name="platform/packages/providers/BookmarkProvider" path="packages/providers/BookmarkProvider" />
@@ -643,6 +635,7 @@
   <project name="platform/prebuilts/manifest-merger" path="prebuilts/manifest-merger" clone-depth="1" />
   <project name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" clone-depth="1" />
   <project name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech" clone-depth="1" />
+  <project name="platform/prebuilts/maven_repo/google-play-service-client-libraries-3p" path="prebuilts/maven_repo/google-play-service-client-libraries-3p" clone-depth="1" />
   <project name="platform/prebuilts/misc" path="prebuilts/misc" clone-depth="1" />
   <project name="platform/prebuilts/ndk" path="prebuilts/ndk" clone-depth="1" />
   <project name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" clone-depth="1" />
