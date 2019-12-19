@@ -17,7 +17,7 @@
 
   <remote name="github-ssh" fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/LA.UM.8.1.r1-12600-sm8150.0" remote="caf" sync-j="4" />
+  <default revision="refs/tags/LA.UM.8.1.r1-12800-sm8150.0" remote="caf" sync-j="4" />
 
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" />
   <project name="device/amlogic/yukawa" />
@@ -692,6 +692,7 @@
   <project name="platform/test/framework" path="test/framework" />
   <project name="platform/test/mlts/benchmark" path="test/mlts/benchmark" />
   <project name="platform/test/mlts/models" path="test/mlts/models" />
+  <project name="platform/test/mts" path="test/mts" />
   <project name="platform/test/suite_harness" path="test/suite_harness" />
   <project name="platform/test/vti/alert" path="test/vti/alert" />
   <project name="platform/test/vti/dashboard" path="test/vti/dashboard" />
