@@ -36,11 +36,12 @@
     <!-- Frameworks -->
     <project name="android_frameworks_av" path="frameworks/av" remote="reloaded" />
     <project name="android_frameworks_base" path="frameworks/base" remote="reloaded" />
+    <project name="android_frameworks_native" path="frameworks/native" remote="reloaded" />
 
     <!-- Hardware -->
     <project name="android_hardware_interfaces" path="hardware/interfaces" remote="reloaded" />
     <project name="android_hardware_libhardware" path="hardware/libhardware" remote="reloaded" />
-    <project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="lineage" />
+    <project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="reloaded" />
     <project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="reloaded" />
     <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="reloaded" />
     <project name="android_hardware_ril" path="hardware/ril" remote="reloaded" />
