@@ -17,7 +17,7 @@
 
   <remote name="github-ssh" fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/LA.UM.8.1.r1-13000-sm8150.0" remote="caf" sync-j="4" />
+  <default revision="refs/tags/LA.UM.8.1.r1-13500-sm8150.0" remote="caf" sync-j="4" />
 
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" />
   <project name="device/amlogic/yukawa" />
@@ -52,7 +52,6 @@
   <project name="device/qcom/qssi" />
   <project name="device/qcom/sepolicy" />
   <project name="device/sample" />
-  <project name="kernel/build" />
   <project name="kernel/configs" />
   <project name="kernel/msm-4.14" />
   <project name="kernel/tests" />
@@ -238,6 +237,7 @@
   <project name="platform/external/libevent" path="external/libevent" />
   <project name="platform/external/libexif" path="external/libexif" />
   <project name="platform/external/libffi" path="external/libffi" />
+  <project name="platform/external/libgav1" path="external/libgav1" />
   <project name="platform/external/libgsm" path="external/libgsm" />
   <project name="platform/external/libhevc" path="external/libhevc" />
   <project name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo" />
@@ -483,6 +483,7 @@
   <project name="platform/hardware/google/easel" path="hardware/google/easel" />
   <project name="platform/hardware/google/interfaces" path="hardware/google/interfaces" />
   <project name="platform/hardware/google/pixel" path="hardware/google/pixel" />
+  <project name="platform/hardware/google/pixel-sepolicy" path="hardware/google/pixel-sepolicy" />
   <project name="platform/hardware/interfaces" path="hardware/interfaces" />
   <project name="platform/hardware/invensense" path="hardware/invensense" />
   <project name="platform/hardware/libhardware" path="hardware/libhardware" />
@@ -498,6 +499,8 @@
   <project name="platform/hardware/qcom/vr" path="hardware/qcom/vr" />
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" />
   <project name="platform/hardware/ril" path="hardware/ril" />
+  <project name="platform/hardware/st/nfc" path="hardware/st/nfc" />
+  <project name="platform/hardware/st/secure_element" path="hardware/st/secure_element" />
   <project name="platform/hardware/ti/am57x" path="hardware/ti/am57x" />
   <project name="platform/libcore" path="libcore" />
   <project name="platform/libnativehelper" path="libnativehelper" />
