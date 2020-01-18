@@ -17,6 +17,7 @@
         <linkfile dest="build/target" src="target"/>
         <linkfile dest="build/tools" src="tools"/>
     </project>
+    <project name="android_build_blueprint" path="build/blueprint" remote="reloaded" />
     <project name="android_build_soong" path="build/soong" remote="reloaded">
         <linkfile dest="Android.bp" src="root.bp"/>
         <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
