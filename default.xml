@@ -17,7 +17,7 @@
 
   <remote name="github-ssh" fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/LA.UM.8.1.r1-13500-sm8150.0" remote="caf" sync-j="4" />
+  <default revision="refs/tags/LA.UM.8.1.r1-14300-sm8150.0" remote="caf" sync-j="4" />
 
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" />
   <project name="device/amlogic/yukawa" />
@@ -295,9 +295,7 @@
   <project name="platform/external/nfacct" path="external/nfacct" />
   <project name="platform/external/nist-pkits" path="external/nist-pkits" />
   <project name="platform/external/nist-sip" path="external/nist-sip" />
-  <project name="platform/external/nos/host/android" path="external/nos/host/android" />
   <project name="platform/external/nos/host/generic" path="external/nos/host/generic" />
-  <project name="platform/external/nos/test/system-test-harness" path="external/nos/test/system-test-harness" />
   <project name="platform/external/noto-fonts" path="external/noto-fonts" />
   <project name="platform/external/oauth" path="external/oauth" />
   <project name="platform/external/objenesis" path="external/objenesis" />
@@ -483,7 +481,6 @@
   <project name="platform/hardware/google/easel" path="hardware/google/easel" />
   <project name="platform/hardware/google/interfaces" path="hardware/google/interfaces" />
   <project name="platform/hardware/google/pixel" path="hardware/google/pixel" />
-  <project name="platform/hardware/google/pixel-sepolicy" path="hardware/google/pixel-sepolicy" />
   <project name="platform/hardware/interfaces" path="hardware/interfaces" />
   <project name="platform/hardware/invensense" path="hardware/invensense" />
   <project name="platform/hardware/libhardware" path="hardware/libhardware" />
