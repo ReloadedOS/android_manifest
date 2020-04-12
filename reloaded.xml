@@ -58,8 +58,10 @@
     <project name="android_packages_apps_Calendar" path="packages/apps/Calendar" remote="reloaded" />
     <project name="android_packages_apps_CertInstaller" path="packages/apps/CertInstaller" remote="reloaded" />
     <project name="android_packages_apps_Contacts" path="packages/apps/Contacts" remote="reloaded" />
+    <project name="android_packages_apps_Dialer" path="packages/apps/Dialer" remote="reloaded" />
     <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="reloaded" />
     <project name="android_packages_apps_Email" path="packages/apps/Email" remote="reloaded" />
+    <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="reloaded" />
     <project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="reloaded" />
     <project name="android_packages_apps_PackageInstaller" path="packages/apps/PermissionController" remote="reloaded" />
     <project name="android_packages_apps_ReloadedOTA" path="packages/apps/ReloadedOTA" remote="reloaded" />
@@ -94,9 +96,9 @@
 
     <!-- Vendor -->
     <project name="android_vendor_reloaded" path="vendor/reloaded" remote="reloaded" />
-    <project name="android_vendor_codeaurora_packages_apps_Dialer" path="vendor/codeaurora/commonsys/packages/apps/Dialer" remote="reloaded" />
     <project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" remote="reloaded" />
     <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="reloaded" />
+    <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="reloaded" />
     <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="reloaded" />
     <project name="android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="reloaded" />
     <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" path="vendor/qcom/sdclang-8.0/linux-x86" remote="github" revision="refs/heads/quartz" />
