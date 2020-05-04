@@ -31,10 +31,8 @@
     <project name="android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="lineage" />
     <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="lineage" />
     <project name="android_external_exfat" path="external/exfat" remote="lineage" />
-    <project name="android_external_libavc" path="external/libavc" remote="reloaded" />
     <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="lineage" />
     <project name="android_external_selinux" path="external/selinux" remote="reloaded" />
-    <project name="android_external_sqlite" path="external/sqlite" remote="reloaded" />
 
     <!-- Frameworks -->
     <project name="android_frameworks_av" path="frameworks/av" remote="reloaded" />
@@ -89,7 +87,6 @@
     <!-- System -->
     <project name="android_system_bpf" path="system/bpf" remote="reloaded" />
     <project name="android_system_core" path="system/core" remote="reloaded" />
-    <project name="android_system_nfc" path="system/nfc" remote="reloaded" />
     <project name="android_system_vold" path="system/vold" remote="reloaded" />
 
     <!-- Vendor -->
