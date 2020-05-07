@@ -68,6 +68,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/ant-wireless/ant_native" />
   <remove-project name="platform/external/ant-wireless/ant_service" />
+  <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
@@ -96,7 +97,9 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/bpf" />
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/security" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
   <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
