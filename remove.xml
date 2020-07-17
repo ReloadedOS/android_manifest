@@ -103,6 +103,7 @@
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
   <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />

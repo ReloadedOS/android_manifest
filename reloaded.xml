@@ -66,6 +66,7 @@
     <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="reloaded" />
     <project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="reloaded" />
     <project name="android_packages_apps_PackageInstaller" path="packages/apps/PermissionController" remote="reloaded" />
+    <project name="android_packages_apps_Recorder" path="packages/apps/Recorder" remote="reloaded" />
     <project name="android_packages_apps_ReloadedOTA" path="packages/apps/ReloadedOTA" remote="reloaded" />
     <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="reloaded" />
     <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="reloaded" />
@@ -93,6 +94,7 @@
     <project name="android_system_bpf" path="system/bpf" remote="reloaded" />
     <project name="android_system_bt" path="system/bt" remote="reloaded" />
     <project name="android_system_core" path="system/core" remote="reloaded" />
+    <project name="android_system_sepolicy" path="system/sepolicy" remote="reloaded" />
     <project name="android_system_vold" path="system/vold" remote="reloaded" />
 
     <!-- Vendor -->
