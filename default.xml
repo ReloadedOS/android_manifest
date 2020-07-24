@@ -17,7 +17,7 @@
 
   <remote name="github-ssh" fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/LA.UM.8.12.r1-13100-sm8250.0" remote="caf" sync-j="4" />
+  <default revision="refs/tags/LA.UM.8.12.r1-13500-sm8250.0" remote="caf" sync-j="4" />
 
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" />
   <project name="device/amlogic/yukawa" />
@@ -507,6 +507,7 @@
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" />
   <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" />
   <project name="platform/packages/apps/Car/Cluster" path="packages/apps/Car/Cluster" />
+  <project name="platform/packages/apps/Car/CompanionDeviceSupport" path="packages/apps/Car/CompanionDeviceSupport" />
   <project name="platform/packages/apps/Car/Dialer" path="packages/apps/Car/Dialer" />
   <project name="platform/packages/apps/Car/Hvac" path="packages/apps/Car/Hvac" />
   <project name="platform/packages/apps/Car/LatinIME" path="packages/apps/Car/LatinIME" />

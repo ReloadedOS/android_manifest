@@ -34,7 +34,6 @@
     <project name="android_external_dng_sdk" path="external/dng_sdk" remote="reloaded" />
     <project name="android_external_exfat" path="external/exfat" remote="lineage" />
     <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="lineage" />
-    <project name="android_external_ppp" path="external/ppp" remote="reloaded" />
     <project name="android_external_selinux" path="external/selinux" remote="reloaded" />
     <project name="android_external_v8" path="external/v8" remote="reloaded" />
 

@@ -70,7 +70,6 @@
   <remove-project name="platform/external/ant-wireless/ant_service" />
   <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/dng_sdk" />
-  <remove-project name="platform/external/ppp" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/v8" />
   <remove-project name="platform/frameworks/av" />
