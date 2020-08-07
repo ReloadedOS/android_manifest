@@ -17,7 +17,7 @@
 
   <remote name="github-ssh" fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/LA.UM.8.12.r1-13500-sm8250.0" remote="caf" sync-j="4" />
+  <default revision="refs/tags/LA.UM.8.12.r1-13700-sm8250.0" remote="caf" sync-j="4" />
 
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" />
   <project name="device/amlogic/yukawa" />
@@ -46,6 +46,7 @@
   <project name="device/google/cuttlefish_kernel" clone-depth="1" />
   <project name="device/google/cuttlefish_vmm" clone-depth="1" />
   <project name="device/google/vrservices" clone-depth="1" />
+  <project name="device/google_car" />
   <project name="device/linaro/poplar" />
   <project name="device/linaro/poplar-kernel" clone-depth="1" />
   <project name="device/qcom/common" />
