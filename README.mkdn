@@ -1,0 +1,27 @@
+ReloadedOS
+===========
+
+Getting Started
+---------------
+
+To get started with Android, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the Reloaded trees, use a command like this:
+
+    repo init -u https://github.com/ReloadedOS/android_manifest.git -b r
+
+Then to sync up:
+
+    repo sync -j$( nproc --all ) --force-sync -c --no-clone-bundle --no-tags --optimized-fetch --prune
+
+Building the source
+---------------
+
+The source at ReloadedOS is well configured for building.
+
+    $ . build/envsetup.sh
+    $ lunch reloaded_device-userdebug
+    $ make reloaded -jX
+
+where X is the number of jobs you would like to allot to the build system.

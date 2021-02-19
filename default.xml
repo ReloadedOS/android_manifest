@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="reloaded"
+          fetch="https://github.com/ReloadedOS"
+          revision="refs/heads/r" />
+
+  <remote name="caf"
+          fetch="http://source.codeaurora.org/quic/la"
+          review="codeaurora.org" />
+
+  <remote name="system"
+          fetch="http://source.codeaurora.org/quic/la"
+          review="codeaurora.org"
+          revision="refs/tags/LA.QSSI.11.0.r1-11600-qssi.0" />
+
+  <remote name="vendor"
+          fetch="http://source.codeaurora.org/quic/la"
+          review="codeaurora.org"
+          revision="refs/tags/LA.UM.9.14.r1-16100-LAHAINA.0" />
+
+  <remote name="lineage" 
+          fetch="https://github.com/LineageOS" 
+          revision="refs/heads/lineage-18.1" />
+
+  <remote name="github" fetch="https://github.com" />
+
+  <remote name="github-ssh" fetch="ssh://git@github.com" />
+
+  <default remote="reloaded" sync-j="4" />
+
+  <!-- System -->
+  <include name="system.xml" />
+
+  <!-- Vendor -->
+  <include name="vendor.xml" />
+
+  <!-- Remove -->
+  <include name="remove.xml" />
+
+  <!-- Reloaded Additions -->
+  <include name="reloaded.xml" />
+</manifest>
