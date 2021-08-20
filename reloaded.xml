@@ -49,6 +49,9 @@
     <project name="android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="reloaded" />
     <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="reloaded" />
 
+    <!-- GAPPS -->
+    <project path="vendor/gapps" name="vendor_gapps" remote="reloaded-gitlab" />
+
     <!-- Hardware -->
     <project name="android_hardware_interfaces" path="hardware/interfaces" remote="reloaded" />
     <project name="android_hardware_libhardware" path="hardware/libhardware" remote="reloaded" />
