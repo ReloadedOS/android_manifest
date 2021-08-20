@@ -39,6 +39,7 @@
     <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="lineage" />
     <project name="android_external_selinux" path="external/selinux" remote="reloaded" />
     <project name="android_external_sonivox" path="external/sonivox" remote="reloaded" />
+    <project path="external/motorola" name="external_motorola" remote="reloaded-gitlab" />
 
     <!-- Frameworks -->
     <project name="android_frameworks_av" path="frameworks/av" remote="reloaded" />

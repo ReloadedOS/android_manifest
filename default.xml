@@ -13,6 +13,13 @@
           fetch="https://github.com/LineageOS" 
           revision="refs/heads/lineage-17.1" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
+  <remote  name="reloaded-gitlab"
+           fetch="https://gitlab.com/reloadedcaf"
+           revision="refs/heads/q" />
+
   <remote name="github" fetch="https://github.com" />
 
   <remote name="github-ssh" fetch="ssh://git@github.com" />
